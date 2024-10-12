@@ -1,10 +1,9 @@
-
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f9fa;
-    color: #343a40;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
 header {
@@ -40,7 +39,6 @@ nav a:hover {
     color: #ffeb3b;
 }
 
-
 .container {
     max-width: 1200px;
     margin: auto;
@@ -63,17 +61,18 @@ nav a:hover {
 .card img {
     border-radius: 10px 10px 0 0;
     width: 100%;
+    height: auto;
 }
 
 .card h2 {
     margin: 0;
     padding: 10px;
+    font-size: 1.5em;
 }
 
 .card p {
     padding: 0 10px 10px;
 }
-
 
 .button {
     display: inline-block;
@@ -90,7 +89,6 @@ nav a:hover {
     transform: scale(1.05);
 }
 
-
 footer {
     background-color: #343a40;
     color: white;
@@ -98,15 +96,21 @@ footer {
     padding: 10px 0;
 }
 
-
 @media (max-width: 768px) {
     h1 {
         font-size: 2em;
     }
+
     .container {
         padding: 10px;
     }
+
     nav a {
         margin: 0 10px;
+        font-size: 0.9em;
+    }
+    
+    .card {
+        margin-bottom: 15px;
     }
 }
